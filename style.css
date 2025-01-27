@@ -23,6 +23,7 @@ body {
 
 .card-head{
   background-image: url(images/image\ copy.png);
+  background-repeat: no-repeat;
   background-size: 100%;
   color: #1e2a3e;
   font-weight: bold;
@@ -51,8 +52,28 @@ body {
 .card-link:hover .card{
   background-color: #3c4e6d;
 }
+
+.card-movie:hover .card{
+  background-image: url(images/image\ copy\ 4.png);
+  background-repeat:repeat;
+  background-size: 90%;
+  background-position: center;
+  text-shadow:0 0 5px grey;
+}
+
+.card-vsco:hover .card{
+  background-image: url(images/IMG_3823.JPG);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  text-shadow:0 0 5px grey;
+}
+
 .card-liverpool:hover .card{
-  background-color: #db0613;
+  background-image: url(images/image\ copy\ 3.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-shadow:0 0 5px grey;
   }
 
 
