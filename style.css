@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+  background-color: aliceblue;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: normal;
+  font-size: large;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: #1e2a3e;
+  padding: 30px;
+  margin: 20px 0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card-head{
+  background-image: url(images/image\ copy.png);
+  background-size: 100%;
+  color: #1e2a3e;
+  font-weight: bold;
+  box-shadow: 0 0 5px grey;
+}
+
+.card-head p{
+  font-size: 30px;
+  text-shadow: 0 0 8px aliceblue;
+}
+
+.card-social{
+  background-color: rgb(172, 169, 169);
+  width: 60%;
+  position: relative;
+  margin: 0px 20%;
+  padding: 10px;
+  box-shadow: 0 0 5px grey;
+  border-radius: 5px;
+}
+
+.card-link .card{
+  color: aliceblue;
+  background-color: #1e2a3e;
+}
+.card-link:hover .card{
+  background-color: #3c4e6d;
+}
+.card-liverpool:hover .card{
+  background-color: #db0613;
+  }
+
+
+h1, h2, h3 {
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+}
+
+.profpic-rounded{
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-navy {
+  background-color: aliceblue;
+  color: #4c5d79;
+  padding: 8px 16px;
+  border-radius: 2px;
+  box-shadow: 0 0 8px grey;
+}
+
+.btn-navy:hover {
+  background-color: rgb(183, 195, 207);
+}
+
+.list-inline{
+  padding: 0;
+  text-align: center;
+}
+
+.list-inline li{
+  display: inline-block;
+  margin: auto 10px;
+}
+
+.icon-small{
+  color: aliceblue;
+  font-size: 40px;
+  background-color: transparent;
+}
+
+.icon-small:hover {
+  color: #4c5d79;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
